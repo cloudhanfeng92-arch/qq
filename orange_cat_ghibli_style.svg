@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9cd4b4"/>
+      <stop offset="100%" stop-color="#6fa37f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="75%" cy="16%" r="18%">
+      <stop offset="0%" stop-color="#ffeeb7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffeeb7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="780" cy="170" r="190" fill="url(#sun)"/>
+
+  <!-- grass -->
+  <path d="M0 700 C180 640 340 760 512 700 C700 640 860 740 1024 700 L1024 1024 L0 1024 Z" fill="#6f9b64"/>
+  <path d="M0 760 C200 700 360 820 530 760 C730 700 860 810 1024 760 L1024 1024 L0 1024 Z" fill="#5c8654"/>
+
+  <!-- tail -->
+  <path d="M685 610 C825 560 900 710 790 820" fill="none" stroke="#be6d34" stroke-width="64" stroke-linecap="round"/>
+  <path d="M715 624 C815 604 854 690 790 778" fill="none" stroke="#98512c" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="520" cy="655" rx="215" ry="165" fill="#d98243" stroke="#7b4828" stroke-width="8"/>
+  <ellipse cx="520" cy="700" rx="115" ry="90" fill="#f0c7a3" opacity="0.9"/>
+
+  <!-- stripes -->
+  <path d="M350 620 C390 570 450 560 500 610" fill="none" stroke="#9a542f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M430 590 C470 545 530 540 580 592" fill="none" stroke="#9a542f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M510 590 C548 548 610 548 658 604" fill="none" stroke="#9a542f" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- head -->
+  <ellipse cx="510" cy="420" rx="140" ry="125" fill="#de8a4a" stroke="#7b4828" stroke-width="8"/>
+  <polygon points="410,340 462,250 492,344" fill="#de8a4a" stroke="#7b4828" stroke-width="8"/>
+  <polygon points="535,344 565,252 618,340" fill="#de8a4a" stroke="#7b4828" stroke-width="8"/>
+  <polygon points="434,338 462,286 484,338" fill="#f6ccb0"/>
+  <polygon points="545,338 566,286 594,338" fill="#f6ccb0"/>
+
+  <!-- eyes -->
+  <ellipse cx="460" cy="410" rx="30" ry="24" fill="#f9f8f3"/>
+  <ellipse cx="560" cy="410" rx="30" ry="24" fill="#f9f8f3"/>
+  <ellipse cx="460" cy="410" rx="10" ry="12" fill="#2a3d2f"/>
+  <ellipse cx="560" cy="410" rx="10" ry="12" fill="#2a3d2f"/>
+  <circle cx="456" cy="404" r="3" fill="#ffffff"/>
+  <circle cx="556" cy="404" r="3" fill="#ffffff"/>
+
+  <!-- nose and mouth -->
+  <path d="M510 438 L498 454 L522 454 Z" fill="#ba6c67"/>
+  <path d="M510 455 C498 468 486 474 472 472" fill="none" stroke="#6b4029" stroke-width="4" stroke-linecap="round"/>
+  <path d="M510 455 C522 468 534 474 548 472" fill="none" stroke="#6b4029" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- whiskers -->
+  <path d="M495 445 C430 435 388 430 345 415" stroke="#6b4029" stroke-width="3" fill="none"/>
+  <path d="M495 454 C430 456 388 456 338 450" stroke="#6b4029" stroke-width="3" fill="none"/>
+  <path d="M526 445 C592 435 635 430 678 415" stroke="#6b4029" stroke-width="3" fill="none"/>
+  <path d="M526 454 C592 456 635 456 686 450" stroke="#6b4029" stroke-width="3" fill="none"/>
+
+  <!-- paws -->
+  <ellipse cx="430" cy="810" rx="42" ry="35" fill="#de8a4a" stroke="#7b4828" stroke-width="6"/>
+  <ellipse cx="515" cy="820" rx="45" ry="36" fill="#de8a4a" stroke="#7b4828" stroke-width="6"/>
+  <ellipse cx="600" cy="810" rx="42" ry="35" fill="#de8a4a" stroke="#7b4828" stroke-width="6"/>
+
+  <g filter="url(#soft)" opacity="0.28">
+    <ellipse cx="520" cy="866" rx="170" ry="36" fill="#2d4d35"/>
+  </g>
+</svg>
